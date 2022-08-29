@@ -17,7 +17,6 @@ function addToCarritoItem(e) {
     title: itemTitle,
     precio: itemPrice,
     img: itemImg,
-    id: itemId,
     cantidad: 1,
   };
 
