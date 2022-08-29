@@ -1,6 +1,3 @@
-// // OCULTANDO ID
-// document.getElementsByClassName("ocultar-id").style.display = "none";
-
 const Clickbutton = document.querySelectorAll(".button");
 const tbody = document.querySelector(".tbody");
 let carrito = [];
@@ -15,9 +12,6 @@ function addToCarritoItem(e) {
   const itemTitle = item.querySelector(".card-title").textContent;
   const itemPrice = item.querySelector(".precio").textContent;
   const itemImg = item.querySelector(".card-img-top").src;
-
-  // Agrego ID
-  const itemId = item.querySelector(".ocultar-id").textContemt;
 
   const newItem = {
     title: itemTitle,
